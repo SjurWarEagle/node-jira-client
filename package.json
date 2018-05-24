@@ -30,8 +30,8 @@
     "request-promise": "^4.1.1"
   },
   "scripts": {
-    "build": "rm -rf lib && babel src --out-dir lib",
-    "docs-build": "rm -rf docs && esdoc -c esdoc.json",
+    "build": "rimraf lib && babel src --out-dir lib",
+    "docs-build": "rimraf docs && esdoc -c esdoc.json",
     "lint": "eslint ./",
     "test": "npm run lint && mocha && npm run docs-build",
     "prepublishOnly": "npm run build && npm run docs-build",
@@ -54,6 +54,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^4.8.0",
     "mocha": "^3.2.0",
+    "rimraf": "2.6.2",
     "release-script": "^1.0.1"
   },
   "release-script": {
