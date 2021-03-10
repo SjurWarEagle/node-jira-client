@@ -46,7 +46,7 @@
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
     "chai": "^3.4.1",
-    "chai-as-promised": "^6.0.0",
+    "chai-as-promised": "^7.1.1",
     "esdoc": "^0.5.2",
     "esdoc-node": "^1.0.1",
     "eslint": "^3.12.1",
